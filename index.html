@@ -7,11 +7,17 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="main" id="container">1</div>
-    <div class="main1" id="container1">2</div>
-    <div class="main2">3</div>
-    <div class="main3">4</div>
-    <P>This is P tag</P>
+    <div class="container">
+        <h1> Age Calculator</h1>
+        <div class="input-section">
+            <label for="dob">Enter your Date Of Birth</label>
+            <input type="date" id="dob">
+            <button onclick="calculateAge()">Calculate</button>"
+        </div>
+        <div class="output-section">
+            <p id="output"></p>
+        </div>
+    </div>
     <script src="./script.js"></script>
     
 </body>
