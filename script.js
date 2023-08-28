@@ -32,7 +32,7 @@ console.log(result);
        };
 }
 */
-function calculateAge()
+/*function calculateAge()
 {
     const dob =new Date(document.getElementById("dob").value);
     const today = new Date();
@@ -50,3 +50,32 @@ function calculateAge()
     }
     document.getElementById("output").innerHtml="You are"+ age + " Years Old.";
 }
+*/
+/*function createLabel(tagname,content,attname,attrvalue)
+      {
+        var label = document.createElement(tagname);
+        label.innerHTML = content;
+        label.setAttribut(attrname.attrvalue);
+        return label;
+      }
+      const label1 = createLabel(label,FirstName,for,Fname);
+      document.body.append(label1);
+      const label2 = createLabel(label,LastName,for,Lname);
+      document.body.append(label2);
+      const label3= createLabel(label,Email,for,email);
+      document.body.append(label3);
+    */
+      const text = document.querySelector("#text1")
+      const textload =() =>{
+          setTimeout(()=>{
+         text.textContent = "Developer"
+          },0)
+          setTimeout(()=>{
+              text.textContent = "Front-End Developer"
+               },4000)
+               setTimeout(()=>{
+                  text.textContent = "Back-End Developer"
+                   },8000)
+      }
+      textload();
+      setInterval(textload,12000);

@@ -1,0 +1,14 @@
+
+body{ 
+    background-color: black;
+}
+div{
+    text-align: center;
+    background-color: blueviolet;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+h-text{
+    font-weight: bolder;
+    font-color: white
+}
